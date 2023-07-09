@@ -132,7 +132,7 @@ jobs:
           push: true
           tags: cropus/taski_gateway:latest
 
-deploy:
+  deploy:
     runs-on: ubuntu-latest
     needs: 
       # Дождёмся билда всех образов Taski
